@@ -1,0 +1,24 @@
+body{
+    background: lightblue;
+}
+h1{
+    font-size: 80px;
+}
+.TopicGoogle{
+    display: flex;
+    flex-direction: column;
+
+}
+.TopicGoogle div{
+background: rgb(245, 214, 214);
+
+border: 2px solid black;
+margin: 10px;
+
+display: inline;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    background: red;
+}
