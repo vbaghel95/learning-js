@@ -1,0 +1,18 @@
+#image{
+    position: center;
+    width: 200px;
+    height: auto;
+    border-image-width: auto;
+
+}
+#img-div{
+    text-align: center;
+}
+#imagegif{
+ width: fit-content;
+ align: center; 
+}
+h1{
+    color: darkred;
+    
+}
