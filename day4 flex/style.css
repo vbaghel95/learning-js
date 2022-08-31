@@ -18,3 +18,13 @@ h1{
 .first{
     flex-shrink: 2;
 }
+.first{
+    flex-grow: 0;
+}
+.first{
+    flex-basis: 20px;
+}
+.first{
+    flex-wrap: wrap;
+}
+
