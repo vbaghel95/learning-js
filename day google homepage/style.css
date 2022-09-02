@@ -16,6 +16,13 @@ section{
     justify-content: center;
     align-items: center;
 }
+section span{
+    position: absolute;
+    color: bisque;
+    background: blue;
+    width: 100px;
+    height: 100px;
+}
 nav ul{
     display: flex;
     justify-content: flex-end;
