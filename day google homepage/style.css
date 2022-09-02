@@ -5,35 +5,40 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
 }
-nav,footer{
+
+nav,footer {
     flex-shrink: 0;
 }
 section{
-    flex-grow: 1;
     display: flex;
+    flex-grow: 1;
     justify-content: center;
     align-items: center;
 }
 nav ul{
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
+    flex-direction: row;
+
 }
-nav ul li {
+nav ul li{
     padding: flex;
     margin: 2px;
     list-style: none;
-
 }
 #logo{
     width: 80vw;
     height: 200px;
     background: red;
+    font-size: 180px;
+    text-align: center;
 }
+
+
 .layer{
     padding: 10px 5px;
-    border-bottom: 2px solid black;
-    background: aqua;
+    border-bottom: 2px solid green;
+    background: white;
+    direction: bottom;
 }
