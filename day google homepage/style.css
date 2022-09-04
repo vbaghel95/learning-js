@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    min-height: 100vh;
+    min-height: 200vh;
     display: flex;
     flex-direction: column;
 }
@@ -11,13 +11,16 @@ nav,footer {
     flex-shrink: 0;
 }
 section{
+    position: relative;
+}
+section{
     display: flex;
     flex-grow: 1;
-    justify-content: center;
-    align-items: center;
+    justify-content: top;
+    align-items: top;
 }
 section span{
-    position: absolute;
+    position: fixed;
     color: bisque;
     background: blue;
     width: 100px;
