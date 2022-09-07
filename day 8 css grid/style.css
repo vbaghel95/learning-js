@@ -1,0 +1,18 @@
+
+#grid{
+    background: aqua;
+display: grid;
+grid-template-columns: 150px 100px 150px 
+}
+#grid div{
+    width: 100px;
+    height: 100px;
+}
+#grid div:nth-child(2n){
+    background: blue;
+
+}
+#grid div:nth-child(2n+1){
+    background: red;
+}
+
