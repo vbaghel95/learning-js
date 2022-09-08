@@ -2,7 +2,8 @@
 #grid{
     background: aqua;
 display: grid;
-grid-template-columns: 150px 100px 150px 
+grid-template-columns: 1fr 2fr 3fr ;
+grid-template-rows: 150px 200px 250px;
 }
 #grid div{
     width: 100px;
