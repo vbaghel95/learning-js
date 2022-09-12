@@ -1,15 +1,30 @@
+.{
+    margin: 0;
+}
 body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background:aquamarine ;
 }
 #header-img{
     display: center;
+    width: 30vw;
+    height: 200px;
+    
 }
 h1{
     padding-top: -80%;
     font-size: 50px;
 }
 #nav-bar{
-    justify-self: auto;
+    padding: flex;
+    display: flex;
+    position:fixed;
+    margin: 5px;
+
+    top: 0;
+
     font-size: 30px;
 }
 h2{
