@@ -1,0 +1,32 @@
+.{
+    margin: 0;
+}
+body{
+    background: white;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+}
+.header div{
+    background: whitesmoke;
+    width: 150px;
+    height: 50px;
+    
+    font-size: 40px;
+    border: 1px solid rgb(185, 142, 240);
+}
+.header-logo{
+    display: flex;
+    flex-direction: row;
+}
+.header-logo div{
+    background:white;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100;
+    left: 850;
+    
+}
