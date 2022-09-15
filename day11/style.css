@@ -11,8 +11,8 @@ head{
 }
 .header-logo{
     background:white;
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 100px;
     position: absolute;
     top: 50;
     left: 200;
@@ -23,8 +23,6 @@ head{
   display: block;
   margin-left: 700px;
   margin-right: auto;
-  width: 50%;
-  width: 10vw;
 }
 
 .header{
@@ -43,10 +41,14 @@ head{
 .content{
     display: flex;
     flex-direction: column;
-    background: lightskyblue;
+    background: aquamarine;
     width:1515;
     height: auto;
     font-size: 35;
 
+}
+img{
+    width: 400;
+    height: 400;
 }
 
