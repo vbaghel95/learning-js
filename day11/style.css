@@ -1,8 +1,9 @@
-.{
+*{
     margin: 0;
 }
+
 head{
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
 }
 #header-logo{
@@ -11,7 +12,7 @@ head{
 }
 .header-logo{
     background:white;
-    width: 50px;
+    width: 500px;
     height: 100px;
     position: absolute;
     top: 50;
@@ -21,8 +22,9 @@ head{
 }
 .center {
   display: block;
-  margin-left: 700px;
+  margin-left: 400px;
   margin-right: auto;
+ 
 }
 
 .header{
@@ -35,20 +37,20 @@ head{
     width: 500px;
     height: 50px;
     
-    font-size: 40px;
+    font-size: 29px;
     border: 1px solid rgb(185, 142, 240);
 }
 .content{
     display: flex;
     flex-direction: column;
     background: aquamarine;
-    width:1515;
-    height: auto;
-    font-size: 35;
+    width: min-content;
+    height: 700;
+    font-size: 20;
 
 }
 img{
-    width: 400;
-    height: 400;
+    width: 200;
+    height: 200;
 }
 
