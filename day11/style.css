@@ -1,14 +1,13 @@
-*{
-    margin: 0;
-}
 
-head{
-    min-height: auto;
+.header{
+    min-height: 100vw;
     display: flex;
 }
-#header-logo{
+.header div {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    background-color: black;
+
 }
 .header-logo{
     background:white;
@@ -21,7 +20,6 @@ head{
     
 }
 .center {
-  display: block;
   margin-left: 400px;
   margin-right: auto;
  
