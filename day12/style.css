@@ -1,0 +1,19 @@
+body{
+    background: lightcyan;
+}
+h1{
+    color: blueviolet;
+    text-decoration: underline;
+}
+#new {
+    color: blue;
+    font-size: x-large;
+}
+#new1 {
+    color: darkgreen;
+    font-size: x-large;
+}
+h2 {
+    color: darkred;
+    text-decoration: underline;
+}
