@@ -17,3 +17,15 @@ h2 {
     color: darkred;
     text-decoration: underline;
 }
+ul li[data-tag="cri"]{
+    color:rgb(29, 185, 206)
+}
+ul li[data-tag="che"]{
+    color:rgb(22, 230, 84)
+}
+ul li[data-tag="cod"]{
+    color:rgb(216, 90, 6)
+}
+ul li[data-tag="play"]{
+    color:rgb(247, 8, 8)
+}
