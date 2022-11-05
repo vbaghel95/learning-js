@@ -1,6 +1,6 @@
 let myAge=22
 
-myAge = myAge+22
+myAge++
 const myName="vikashbaghel"
 
-console.log(myAge,myName,2,3)
+console.log(myAge,myName)
