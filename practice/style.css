@@ -1,0 +1,103 @@
+body{
+    background-color: lightblue;
+}
+.topbar, ul{
+    display: flex;
+    height: 30px;
+    width: auto;
+    color: blue;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;  
+}
+
+
+.middlelogo{
+    display: flex;
+    height: 100;
+    width: auto;
+    color: antiqueBLACK;
+}
+.middlelogo, img{
+    align-items: center;
+    justify-content: center;
+}
+.belowlogo{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: auto;
+    color: antiqueBLACK;
+
+}
+
+#line1 div{
+    display: flex;
+    flex-direction: column;
+    background-color: AQUA;
+    width: 180px;
+    height: 70px;
+    border: 2px solid BLACK;
+    margin: 20px;
+    text-align: center;
+    
+}
+#line2 div{
+    display: flex;
+    flex-direction: column;
+    background-color: AQUA;
+    width: 180px;
+    height: 70px;
+    border: 2px solid BLACK;
+    margin: 20px;
+    text-align: center;
+}
+#line3 div{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 180px;
+    height: 70px;
+    border: 2px solid BLACK;
+    margin: 20px;
+    text-align: center;
+}
+#line4 div{
+    display: flex;
+    flex-direction: column;
+    background-color: AQUA;
+    width: 180px;
+    height: 70px;
+    border: 2px solid BLACK;
+    margin: 20px;
+    text-align: center;
+}
+#line5 div{
+    display: flex;
+    flex-direction: column;
+    background-color: AQUA;
+    width: 180px;
+    height: 70px;
+    border: 2px solid BLACK;
+    margin: 20px;
+    text-align: center;
+}
+#line6 div{
+    display: flex;
+    flex-direction: column;
+    background-color: AQUA;
+    width: 180px;
+    height: 70px;
+    border: 2px solid BLACK;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.footer{
+    display: flex;
+    height: 30;
+    width: auto;
+}
