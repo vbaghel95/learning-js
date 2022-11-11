@@ -12,6 +12,21 @@ body{
     padding: 0px;
     list-style: none;  
 }
+.fa{
+    padding: 10px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.fa:hover{
+    opacity:0.7
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
 
 
 .middlelogo{
