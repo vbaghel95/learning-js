@@ -114,19 +114,49 @@ body{
 
 .footer{
     display: flex;
-    height: 450px;
+    height: 250px;
     width: auto;
     flex-direction: row;
-    color: darkgreen;
-    background-color: black;
+    color: black;
+    background-color: lightblue;
 }
 #footer1{
     display: flex;
     flex-direction: column;
-    background-color: AQUA;
-    width: 180px;
-    height: 70px;
-    border: 2px solid BLACK;
+    background-color: lightcyan;
+    width: 300px;
+    height: auto;
+    border: 2px solid lightblue;
+    margin: 20px;
+    text-align: center;
+}
+#footer2{
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+    width: 300px;
+    height: auto;
+    border: 2px solid lightblue;
+    margin: 20px;
+    text-align: center;
+}
+#footer3{
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+    width: 300px;
+    height: auto;
+    border: 2px solid lightblue;
+    margin: 20px;
+    text-align: center;
+}
+#footer4{
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+    width: 300px;
+    height: auto;
+    border: 2px solid lightblue;
     margin: 20px;
     text-align: center;
 }
