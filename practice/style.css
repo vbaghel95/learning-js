@@ -160,3 +160,6 @@ body{
     margin: 20px;
     text-align: center;
 }
+.footer1, ul1{
+    list-style: none;
+}
