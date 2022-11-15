@@ -1,11 +1,15 @@
-let evenNumbers=[]
-let oddNumbers=[]
+function breakNumber(number) {
+    let evenNumbers = []
 
-for (let i=0;i<19;i++) {
-    if(i % 2 ===0){
-    evenNumbers.push(i)
-   }else{
-   oddNumbers.push(i)
-   }
+
+for (let i=0;i<20;i++) {
+    if(i === number){
+   break
 }
-console.log(evenNumbers, oddNumbers)
+if ( i % 2 === 0 ){
+    evenNumbers.push(i)
+}
+}
+return evenNumbers
+}
+console.log(breakNumber(5))
