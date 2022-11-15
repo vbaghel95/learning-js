@@ -1,9 +1,11 @@
-let myFriends=[]
-function addMyFriends(friend){
-    myFriends.unshift(friend)
-    console.log(myFriends)
+let evenNumbers=[]
+let oddNumbers=[]
+
+for (let i=0;i<19;i++) {
+    if(i % 2 ===0){
+    evenNumbers.push(i)
+   }else{
+   oddNumbers.push(i)
+   }
 }
-for (let i=0;i<19;++i) {
-    myFriends.push(i)
-}
-console.log(myFriends)
+console.log(evenNumbers, oddNumbers)
