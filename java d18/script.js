@@ -17,8 +17,10 @@ function incrementCounter(){
 }
 function decrementCounter(){
     const li = ulElement.querySelector('[data-counter = "'+counter+'"]')
-    li.remove()
-    
+    const number = parseInt(li.getAttribute('data-counter'),10)
+    if(number % 2 === 0){
+        li.remove()
+    }
     counter--
     counterEl.innerText = counter
     
