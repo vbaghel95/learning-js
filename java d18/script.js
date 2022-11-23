@@ -1,5 +1,5 @@
-const incrementBtn = document.querySelector('#increment')
-const decrementBtn = document.querySelector('#decrement')
+const plusPoint = document.querySelector('#increment')
+const minusPoint = document.querySelector('#decrement')
  const counterEl = document.getElementById('counter')
 
  const ulElement = document.getElementById('list-items')
@@ -19,5 +19,5 @@ function decrementCounter(){
     counterEl.innerText = counter
     
 }
-incrementBtn.addEventListener('click', incrementCounter)
-decrementBtn.addEventListener('click', decrementCounter)
+plusPoint.addEventListener('click', incrementCounter)
+minusPoint.addEventListener('click', decrementCounter)
