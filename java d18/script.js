@@ -11,6 +11,12 @@ function incrementCounter(){
 
     const li = document.createElement('li')
     li.setAttribute('data-counter', counter)
+
+    if(counter % 2 ===0){
+        li.style.background = 'red'
+    } else{
+        li.style.background = 'yellow'
+    }
     li.innerHTML = ' <b>Point</b> ' + counter
 
     ulElement.appendChild(li)
