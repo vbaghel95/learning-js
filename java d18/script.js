@@ -10,11 +10,15 @@ function incrementCounter(){
     counterEl.innerText = counter
 
     const li = document.createElement('li')
+    li.setAttribute('data-counter', counter)
     li.innerHTML = ' <b>Point</b> ' + counter
 
     ulElement.appendChild(li)
 }
 function decrementCounter(){
+    const li = ulElement.querySelector('[data-counter = "'+counter+'"]')
+    li.remove()
+    
     counter--
     counterEl.innerText = counter
     
